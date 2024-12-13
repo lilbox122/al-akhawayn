@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+/* Ensure the content is pushed down below the header */
+.content {
+  padding-top: 70px; /* Matches header height */
+  margin: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}

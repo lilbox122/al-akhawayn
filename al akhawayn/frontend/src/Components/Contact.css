@@ -1,0 +1,90 @@
+.contact-page {
+    padding: 20px;
+  }
+  
+  .librarian-info {
+    margin-bottom: 40px;
+  }
+  
+  .librarian-info h2 {
+    font-size: 2rem;
+    color: var(--primary-color, #006633);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .librarian-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .librarian-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .librarian-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .librarian-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .librarian-card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .book-request-form h2 {
+    font-size: 2rem;
+    color: var(--primary-color, #006633);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-request-form p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px 15px;
+    background-color: var(--primary-color, #006633);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #004d26;
+  }
+  

@@ -1,0 +1,131 @@
+/* Banner Section */
+.banner {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url("/public/banner.jpg"); /* Add banner image */
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke; /* White text */
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+/* Explore Categories Section */
+.categories-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.categories-title {
+  font-size: 2rem;
+  color: var(--primary-color, #006633); /* Green color for the title */
+  margin-bottom: 20px;
+}
+
+.category-cards {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add space between the cards */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.card {
+  background-color: #d3d3d3; /* Light grey background for the cards */
+  padding: 20px; /* Add padding inside each card */
+  text-align: center; /* Center-align text inside the cards */
+  border-radius: 8px; /* Rounded corners for the cards */
+  width: 180px; /* Fixed width for consistent size */
+  cursor: pointer; /* Make the card clickable */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight upward movement on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card img {
+  width: 60px; /* Adjust icon size */
+  height: 60px;
+  margin-bottom: 10px; /* Add space below the icon */
+}
+
+.card h3 {
+  margin: 10px 0 5px; /* Space between the title and description */
+  color: var(--primary-color, #006633); /* Green color for the card titles */
+}
+
+.card p {
+  color: #333; /* Dark grey for the description text */
+  font-size: 0.9rem; /* Slightly smaller font for the description */
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+  margin: 40px 0;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-arrivals h2 {
+  font-size: 1.8rem;
+  color: var(--primary-color, #006633);
+  margin-bottom: 20px;
+}
+
+.new-arrivals-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.new-arrival-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.new-arrival-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.new-arrival-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.sign-in-button {
+  margin-top: 0px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #006633;
+  background-color: white; /* Green color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-button:hover {
+  background-color: #004d26; /* Darker green on hover */
+}
